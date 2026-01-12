@@ -71,26 +71,26 @@ The testbenches include:
 Simulation results include **waveforms** and **simulation transcripts** for each module.
 
 ### Counter Simulation  
-![Counter Waveform](images/counter_wave.png)  
-![Counter Transcript](images/counter_results.png)
+![Counter Waveform](_images/counter_wave.png)  
+![Counter Transcript](_images/counter_results.png)
 
 ---
 
 ### Register Simulation  
-![Register Waveform](images/reg_wave.png)  
-![Register Transcript](images/reg_results.png)
+![Register Waveform](_images/reg_wave.png)  
+![Register Transcript](_images/reg_results.png)
 
 ---
 
 ### Shift Register Simulation  
-![Shift Register Waveform](images/shift_reg_wave.png)  
-![Shift Register Transcript](images/shift_reg_results.png)
+![Shift Register Waveform](_images/shift_reg_wave.png)  
+![Shift Register Transcript](_images/shift_reg_results.png)
 
 ---
 
 ### Multiplier Simulation  
-![Multiplier Waveform](images/mul_wave.png)  
-![Multiplier Transcript](images/mul_results.png)
+![Multiplier Waveform](_images/mul_wave.png)  
+![Multiplier Transcript](_images/mul_results.png)
 
 > Both **Array Multiplier** and **Adder Tree Multiplier** were verified using the same layered testbench through the `mul_main` module.
 
