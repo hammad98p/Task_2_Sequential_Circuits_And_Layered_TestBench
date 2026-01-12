@@ -84,10 +84,10 @@ class mon;
 		this.mon_to_scr = mb;
 	endfunction
 
-	task obsrv(int count);
+	task obsrv();
 		logic [31:0] q;
 
-		for (int i = 0; i < count; i++) begin
+		forever begin
 			@(posedge vmif.clk);
 			q = vmif.q;
 			mon_to_scr.put(q);

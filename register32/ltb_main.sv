@@ -50,8 +50,8 @@ module ltb_reg;
 			generator.gen_items(10);
 			driver.drive(10);
 			begin
-				repeat (1) @(posedge clk); // reg latency
-				monitor.obsrv(10);
+				repeat (2) @(posedge clk); // reg latency
+				monitor.obsrv();
 				
 			end
 			scoreboard.run();
